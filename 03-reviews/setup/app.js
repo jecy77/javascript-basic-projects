@@ -40,9 +40,9 @@ const randomBtn = document.querySelector('.random-btn');
 
 let curId = 0;
 
-window.addEventListener('DOMContentLoaded', function(){
-  drawReview();
-});
+// document.addEventListener('DOMContentLoaded', function(){
+//   drawReview();
+// });
 
 prevBtn.addEventListener('click', function(){
   curId--;
